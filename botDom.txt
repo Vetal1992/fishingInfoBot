@@ -1,0 +1,83 @@
+1 - imports...
+2 - create consts: database/bot
+3 - bot.setCommands: start/info/choice...
+4 - create and set database... (setInterval(createDatabases, 36000000))
+5 - const start bot
+6 - bot on (with wirst options)
+7 - bot on (with second options)
+8 - cycle for fish options
+
+	for (key in watherTemp) :
+
+	await delay(1000)
+
+9 - consts (let watherKey = watherTemp[key]
+                   let wickliPressureKey = wickliPressure[key]
+                   let skyNowKey = skyNow[key]
+                   let pressureNow = []
+                   let pressureCalculate = []
+                   let pressureSum = []
+                   let cloudInSky = []
+                   let wind = []
+                   let tempData = ''
+                   let tempNow = '')
+10 - async function parsing weather now(sky, pressure, temp)
+
+	await delay(1000)
+
+	function mainData:
+
+11 - consts ( let skyMessage = `\nНебо: ${cloudInSky[0]}`
+              let windMessage = `\nВітер: ${wind[1]}`
+              let pressFromBase = [])
+12 - get data from db : pressure from base
+13 - async function that doing contat pressure data from db, and parse data from weather site
+
+	await delay(1000)
+
+14 - async funktion  that doing parsing temp of wather
+
+	await delay(1000)
+
+15 - consts     (let tempForFishing = []
+                let bestTempForFishing = []
+                let pressForFishing = []
+                let bestPressForFishing = []
+                let bestPressForFishingObj = {}
+                let pressures = []
+                let pressureTotal = ''
+                let pressureTrend = []
+                let test = [3, 5]
+                let rating = 0 )
+
+	function mainData()
+	function whatFish() //large function, that calculates:
+	1 - trend of pressures
+	2 - fish reaction to pressure change
+
+16 - definition daily times(morning, day etc.)
+	
+	function messageFormation()...
+
+
+	the importance of the parameter:
+	skyMessage = 5 points
+	*shortRainAfterHotWeather = skyMessage * 1.5
+	*rainAfterColdWeather = skyMessage * 0.1
+	*longRain = skyMessage * 0.1
+	*hotCleanSky = skyMessage * 0.1
+	*hotAfterCold = skyMessage * 2
+	*clouds = skymessage * 1.3
+	windMessage = wind <= 3m\s ? 7 points; wind <= 6m\s ? 3 points 
+	tempNow = 8 point
+	tempData(tendention) = if tempNow lower in normal temp, small upper temp will good and tempNow * 1.8
+	pressureSum(tendention) = 10 point if stable or small reduction
+	wind[2](pressureNow) =  = pressureSum * 2
+	
+
+
+
+
+
+
+
