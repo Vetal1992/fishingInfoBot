@@ -54,7 +54,7 @@ function createDatabases() {
         db.exec(`DELETE FROM ${key} WHERE rowid in (SELECT rowid from ${key} rowid limit 1)`)
     }
 }
-setInterval(createDatabases, 3600000)
+setInterval(createDatabases, 86400000)
 
 const start = () => {
     bot.on('message', async msg => {
